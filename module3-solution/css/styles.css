@@ -1,6 +1,7 @@
 body {
     font-size: 16px;
     font-family: 'Oxygen', sans-serif;
+    color: black;
 }
 
 #nav-header {
@@ -28,6 +29,16 @@ li a {
 
 #nav-list a:hover {
     background: #E7E7E7;
+}
+
+li {
+    border: 1px solid black;
+    background-color: yellow;
+}
+  
+#nav-list {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h2 {
